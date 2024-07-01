@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Header styles */
+header {
+    background-color: #fff;
+    color: #505f35;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header #LOGO {
+    height: 50px; /* Adjust the height as needed */
+    margin-right: auto;
+}
+
+header h1 {
+    margin-top: 70px;
+    margin-right: 30%;
+
+}
+
+
+/* Navigation styles */
+/* Navigation styles */
+nav {
+    background-color: #588157;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Adjust the z-index as needed */
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+
+
+.parentContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 25px;
+    padding: 0px;
+}
+  
+.photo {
+    padding: 10px;
+    box-shadow: 3px 3px 3px lightgray;
+    border: 1px solid lightgray;   
+    width: 285px;
+   height: 370px;
+   border: 1px solid #588157;
+   border-radius: 10px;
+}
+ 
+.photo img {
+    width: 285px;
+    height: 200px;
+    border-radius: 10px;
+}
+ 
+.photo p {
+    text-align: center;
+}
+
+h2{
+    margin-top: 80px;
+    margin-left: 60px;
+}
+
+nav a:hover {
+    color: black;
+}
+
+.active {
+    background-color: #fff;
+    color: black;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    border-radius: 5px;
+}
+.fa-x-twitter, .fa-square-instagram, .fa-tiktok{
+    font-size: 20px;
+    margin-right: 10px;
+}
+.headings{
+    background-color: #d8e4d8;
+    width: 25%;
+    height: 50px;
+    align-items: center;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+
+h4{
+    margin-bottom: 17px;
+}
+p{
+    margin-top: -10px;
+    font-size: small;
+}
+
+button{
+    margin-left: 135px;
+    margin-bottom: 40px;
+}
+
+.fa-clock{
+    margin-left: 10px;
+
+}
+/* Footer styles */
+footer {
+    background-color: #588157;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 90px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer img {
+    margin-top: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+footer #LOGO {
+    height: 50px;  
+    margin-right: auto;
+}

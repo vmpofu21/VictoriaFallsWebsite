@@ -1,0 +1,162 @@
+/* Reset some default styles */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+
+/* Header styles */
+header {
+    background-color: #fff;
+    color: #505f35;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header #LOGO {
+    height: 50px; /* Adjust the height as needed */
+    margin-right: auto;
+}
+
+header h1 {
+    margin-top: 70px;
+    margin-right: 40%;
+
+}
+
+
+/* Navigation styles */
+/* Navigation styles */
+nav {
+    background-color: #588157;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Adjust the z-index as needed */
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+/*Body Styles*/
+
+.container{
+    margin: 25px;
+    padding: 15px;
+}
+.container-one{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    justify-content:center;
+    align-content:space-evenly;
+    width: 100%;
+   margin-top: 30px;
+}
+
+.container-one img{
+    height: 280px;
+    width: 420px;
+    margin: 10px;
+    border-radius: 5px;
+    border: outset;
+}
+
+.uploadImage{
+    border: 2px solid #588157;
+    width: 20%;
+    border-radius: 5px;
+    margin-left: 300px;
+    height: 180px;
+    margin-top: 40px;
+
+}
+
+nav a:hover {
+    color: black;
+}
+
+.active {
+    background-color: #fff;
+    color: black;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+label{
+    margin-left: 20px;
+}
+
+h2{
+    margin-left: 30px;
+}
+.container-three h2{
+    margin-top: 60px;
+}
+input{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.moreButton {
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    width: 30%;
+}
+
+.headings{
+    background-color: #d8e4d8;
+    width: 25%;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    margin-right:20px;
+    border-radius: 5px;
+}
+
+.fa-x-twitter, .fa-square-instagram, .fa-tiktok{
+    font-size: 20px;
+    margin-right: 10px;
+}
+/* Footer styles */
+footer {
+    background-color: #588157;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer img {
+    margin-top: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+footer #LOGO {
+    height: 50px; /* Adjust the height as needed */
+    margin-right: auto;
+}

@@ -1,0 +1,167 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.8;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+
+/* Header styles */
+header {
+    background-color: #fff;
+    color: #505f35;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header #LOGO {
+    height: 50px; 
+    margin-right: auto;
+}
+
+header h1 {
+    margin-top: 70px;
+    margin-right: 45%;
+
+}
+
+
+/* Navigation styles */
+nav {
+    background-color: #588157;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; 
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    color: black;
+}
+
+.active {
+    background-color: #fff;
+    color: black;
+    width: 90px;
+    height: 30px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.container{
+    margin: 30px;
+    padding: 30px;
+}
+
+
+img#teammateOne{
+    float:left;
+    border-radius: 15px;
+    padding: 10px;
+    margin:10px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+img#teammateTwo{
+    float:right;
+    border-radius: 15px;
+    padding: 10px;
+    margin:10px;
+    margin-left: 30px;
+    margin-top: 60px;
+
+
+}
+
+#headings, #contactUs{
+    background-color: #d8e4d8;
+    width: 25%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.nameOne{
+    width: 65%;
+    height: 40%;
+    margin-top: 60px;
+    float: right;
+    border: 1px solid #588157;
+    border-radius: 10px;
+
+}
+
+.nameTwo{
+    width: 65%;
+    height: 50%;
+    margin-top: 60px;
+    float: left;
+    border: 1px solid #588157;
+    border-radius: 10px;
+
+}
+
+.nameOne p, .nameTwo p, .nameOne h3, .nameTwo h3{
+    margin: 50px;
+}
+
+.para1, .contacts{
+    margin: 50px;
+    margin-top: 10px;
+}
+
+/* Remove bullet points from all lists */
+ul, ol {
+    list-style-type: none;
+}
+
+.fa-x-twitter, .fa-square-instagram, .fa-tiktok{
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #588157;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 80%; 
+    
+    width: 100%;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer img {
+    margin-top: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+footer #LOGO {
+    height: 50px; 
+    margin-right: auto;
+}
